@@ -1,0 +1,36 @@
+.headerContainer{
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin: 5px;
+}
+.container div{
+    font-size: 1.5rem;
+}
+
+.dropDown{
+    width: 80%;
+    margin: 0 auto;
+    height: 0;
+    visibility: hidden;
+    transition: height 0.4s;
+}
+.dropDownOpen{
+    height: 230px;
+    visibility: visible;
+    transition: height 0.4s, visibility 0s linear 0.2s;
+}
+
+.dropDown button{
+    margin-bottom: 10px;
+}
+
+.headerContainer hr{
+    border: 1px solid black;
+}
